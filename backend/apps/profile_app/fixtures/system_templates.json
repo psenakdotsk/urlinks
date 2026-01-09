@@ -1,0 +1,86 @@
+[
+  {
+    "model": "profile_app.template",
+    "pk": 1,
+    "fields": {
+      "user": null,
+      "name": "Classic",
+      "background_color": "#ffffff",
+      "text_color": "#1f2937",
+      "button_color": "#3b82f6",
+      "button_text_color": "#ffffff",
+      "font_family": "Inter",
+      "border_radius": 8
+    }
+  },
+  {
+    "model": "profile_app.template",
+    "pk": 2,
+    "fields": {
+      "user": null,
+      "name": "Dark",
+      "background_color": "#111827",
+      "text_color": "#f9fafb",
+      "button_color": "#374151",
+      "button_text_color": "#f9fafb",
+      "font_family": "Inter",
+      "border_radius": 8
+    }
+  },
+  {
+    "model": "profile_app.template",
+    "pk": 3,
+    "fields": {
+      "user": null,
+      "name": "Ocean",
+      "background_color": "#0c4a6e",
+      "text_color": "#f0f9ff",
+      "button_color": "#0ea5e9",
+      "button_text_color": "#ffffff",
+      "font_family": "Inter",
+      "border_radius": 12
+    }
+  },
+  {
+    "model": "profile_app.template",
+    "pk": 4,
+    "fields": {
+      "user": null,
+      "name": "Forest",
+      "background_color": "#14532d",
+      "text_color": "#f0fdf4",
+      "button_color": "#22c55e",
+      "button_text_color": "#ffffff",
+      "font_family": "Inter",
+      "border_radius": 8
+    }
+  },
+  {
+    "model": "profile_app.template",
+    "pk": 5,
+    "fields": {
+      "user": null,
+      "name": "Sunset",
+      "background_color": "#fef3c7",
+      "text_color": "#78350f",
+      "button_color": "#f59e0b",
+      "button_text_color": "#ffffff",
+      "font_family": "Inter",
+      "border_radius": 24
+    }
+  },
+  {
+    "model": "profile_app.template",
+    "pk": 6,
+    "fields": {
+      "user": null,
+      "name": "Minimal",
+      "background_color": "#fafafa",
+      "text_color": "#171717",
+      "button_color": "#171717",
+      "button_text_color": "#fafafa",
+      "font_family": "Inter",
+      "border_radius": 0
+    }
+  }
+]
