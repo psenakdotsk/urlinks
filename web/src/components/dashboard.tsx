@@ -45,8 +45,8 @@ const navMain = [
         url: '/dashboard',
     },
     {
-        title: 'Links',
-        url: '/dashboard/links',
+        title: 'Templates',
+        url: '/dashboard/templates',
     },
     {
         title: 'Analytics',

@@ -9,7 +9,7 @@ import SupportPage from './pages/support';
 import RegisterPage from './app/auth/register';
 import DashboardLayout from './components/dashboard';
 import DashboardHome from './pages/dashboard/home';
-import DashboardLinks from './pages/dashboard/links';
+import DashboardTemplates from './pages/dashboard/templates';
 import DashboardAnalytics from './pages/dashboard/analytics';
 
 const Layout = () => (
@@ -35,7 +35,7 @@ export function App() {
                 <Route element={<PrivateRoute />}>
                     <Route path="/dashboard" element={<DashboardLayout />}>
                         <Route index element={<DashboardHome />} />
-                        <Route path="links" element={<DashboardLinks />} />
+                        <Route path="templates" element={<DashboardTemplates />} />
                         <Route path="analytics" element={<DashboardAnalytics />} />
                     </Route>
                 </Route>
